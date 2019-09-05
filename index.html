@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Malaysia Car Loan Calculator</title>
+</head>
+<body>
+   <div>
+      <p>Vehicle Price: <input type="number" id="price" placeholder="RM"></p>
+      <p>Down Payment: <input type="number" id="downPayment" placeholder="RM"></p>
+      <p>Interest Rate: <input type="number" id="interest" placeholder="%"></p>
+      <p>Loan Period: <input type="number" id="loanPeriod" placeholder="In Years"></p>
+      <button type="button" id="calculate">Calculate</button>
+      <p>Monthly Payment: <span id="monthly"></span></p>
+      <p>Total of Payments: <span id="totals"></span></p>
+      <p>Loan Amount: <span id="loanAmount"></span></p>
+      <p>Total Interest Paid: <span id="interestPaid"></span></p>
+      <p>Total Transaction Cost: <span id="transaction"></span></p>
+   </div>
+
+   <script src="./calc.js"></script>
+</body>
+</html>
