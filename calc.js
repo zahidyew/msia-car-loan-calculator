@@ -45,6 +45,12 @@ reset.addEventListener("click", () => {
    downPaymentElemt.value = ""; 
    interestElemt.value = ""; 
    loanPeriodElemt.value = ""; 
+
+   monthly.innerHTML = "";
+   totals.innerHTML = "";
+   loanAmount.innerHTML = "";
+   interestPaid.innerHTML = "";
+   transaction.innerHTML = "";
 });
 
 document.onkeydown = function (e) {
